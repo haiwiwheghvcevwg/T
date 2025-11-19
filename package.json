@@ -1,0 +1,30 @@
+{
+  "name": "apkpure-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "بوت واتساب احترافي لتحميل تطبيقات الأندرويد من APKPure",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "server": "python3 server.py"
+  },
+  "keywords": ["whatsapp", "bot", "apkpure", "android", "baileys"],
+  "author": "omarxarafp",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.5",
+    "p-queue": "^8.0.1",
+    "node-cache": "^5.1.2",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
